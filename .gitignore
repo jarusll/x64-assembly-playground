@@ -1,4 +1,4 @@
 *.o
 *.lst
 main
-.vscode/
+.vscode/settings.json
