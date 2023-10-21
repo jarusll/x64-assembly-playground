@@ -7,7 +7,7 @@
       "label": "build",
       "type": "shell",
       "command": [
-        "nasm -f elf64 -g -F dwarf ${file} -l main.lst -o ${fileDirname}/main.o && gcc -o ${fileDirname}/main ${fileDirname}/main.o -no-pie",
+        "nasm -f elf64 -g -F dwarf ${file} -l main.lst -o ${fileDirname}/main.o && gcc -o ${fileDirname}/main ${fileDirname}/main.o -no-pie && ${fileDirname}/main",
       ],
       "problemMatcher": [],
       "group": {
